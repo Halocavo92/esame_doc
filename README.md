@@ -30,16 +30,17 @@ Il progetto è strutturato in questo modo:
 
 mini-blog-api/
 ├── README.md
-├── index.html
-├── posts.html
-├── autori.html
-├── style.css
-├── script.js
-├── docs/
-│ ├── installazione.md
-│ ├── faq.md
-│ └── api.md
-└── assets/
+├── index.html #homepage
+├── posts.html #pagina post
+├── autori.html #pagina autori
+├── style.css #design responsive
+├── script.js #fetch dati dalle API esterne
+├── docs/ #documentazione
+│ ├── installazione.md #come installare il progetto
+│ ├── faq.md #domande frequenti
+│ └── api.md # API esterne
+├── data/ #dati fittizzi
+└── assets/ 
 └── immagini/
 
 
