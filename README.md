@@ -1,6 +1,11 @@
 # Mini-Blog
 Questa repository serve per creare un mini-blog fittizio che utilizza le API di JSONplaceholder per popolare il sito con post e autori fittizzi.
 Il progetto è un esempio di sito statico
+il sito è visibile al seguente link :
+
+https://halocavo92.github.io/esame_doc/
+
+
 
 ## Funzionalità
 
@@ -19,6 +24,11 @@ Il progetto include le seguenti funzionalità:
 - JavaScript (per fetch dati dalle API esterne)
 - API di JSONPlaceholder per i dati fittizzi
 
+## Requisiti
+- Un Browser Moderno
+- Connessione a Internet (per Bootstrap e API esterne)
+- Git o gh (per clonare la repository)
+
 ## API Utilizzate 
 
 - Post https://jsonplaceholder.typicode.com/posts Pagina posts.html
@@ -27,7 +37,7 @@ Il progetto include le seguenti funzionalità:
 ## Struttura
 Il progetto è strutturato in questo modo:
 
-
+```
 mini-blog-api/
 ├── README.md
 ├── index.html #homepage
@@ -42,5 +52,13 @@ mini-blog-api/
 ├── data/ #dati fittizzi
 └── assets/ 
 └── immagini/
+```
 
+## Documentazione
+
+La documentazione completa è disponibile nella cartella [`docs/`](docs/):
+
+- [Guida all'installazione](docs/installazione.md) — come clonare e avviare il progetto
+- [FAQ](docs/faq.md) — domande frequenti
+- [API](docs/api.md) — dettaglio delle API esterne utilizzate
 
